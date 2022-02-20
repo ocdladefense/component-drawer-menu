@@ -1,0 +1,11 @@
+{
+	"name": "ocdladefense/component-drawer-menu",
+    "description": "A fly-out menu component for an HTML site.",
+    "type": "wordpress-theme",
+    "extra": {
+        "todo": "Specify the appropriate value for the type key; it should be component. See https://getcomposer.org/doc/04-schema.md#type for more info.",
+        "language": "PHP",
+        "target": "Appserver",
+        "description": "This component contains stylesheets and scripts to animate a fly-out menu in HTML.  See the README file for specific setup instructions, including where to position the menu HTML."
+    }
+}
