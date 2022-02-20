@@ -1,0 +1,38 @@
+.user-pic {
+    font-size: 36pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.user {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-size: large;
+    padding-left: 16px;
+    padding-bottom: 20px;
+    min-height: 100px;
+}
+
+.user-info-top {
+    font-weight: 600;
+    margin-top:15px;
+    text-align: center;
+}
+
+.user-body {
+    display:inline-block;
+}
+
+.user-info-side {
+    display: inline-block;
+    width: 62%;
+    overflow-wrap: anywhere;
+    font-size: small;
+    text-align: left;
+}
+
+.user {
+    display:none;
+}

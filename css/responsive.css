@@ -1,0 +1,53 @@
+
+
+@media screen and (min-width: 801px){
+    #stage{
+        /* width: 79%; */
+        display:inline-block;
+    }
+    .sidenav {
+        width: 20%;
+    }
+    #menu{display:none;}
+
+    body:not('.is-home') .sidenav {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 800px){
+    #stage{
+        width: 100%;
+        display:inline-block;
+        
+    }
+
+    .sidenav {
+        position: absolute;
+        width: 250px;
+        display: none;
+    }
+    #menu{display: inline-block;}
+}
+
+
+@media screen and (max-width: 800px){
+    .sidenav{
+        width:100%;
+        height:unset;
+    }
+}
+
+
+
+
+@media screen and (min-width:750px){
+
+    .sidenav{
+        float:unset;
+    }
+    
+    li.side-menu-item {
+        display: inline-block;
+    }
+}
