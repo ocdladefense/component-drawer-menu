@@ -22,6 +22,16 @@
 }
 
 
+.fa, .far, .fas {
+
+  vertical-align: middle;
+  width: 60px;
+}
+
+nav ul {
+
+  padding-left: 15px;
+}
 
 
 
@@ -125,13 +135,15 @@ we're going to style the label instead
 
 
 #drawer li {
-	color:#ccc;
-	font-size:1.3em;
-	width:100%;
-	list-style-type:none;
-	border-bottom:1px solid #bf9500 !important;
-	display:block;
-	padding-left:0px;
+  color: #ccc;
+  font-size: 1.3em;
+  width: 100%;
+  list-style-type: none;
+  border-bottom: 1px solid rgba(191,161,46,0.2);
+  display: block;
+  padding-left: 0px;
+  /* text-transform: capitalize; */
+  padding: 17px;
 }
 
 #drawer li a {
@@ -165,7 +177,8 @@ we're going to style the label instead
 
 
 
-#drawer-toggle:checked ~ #drawer {
+#drawer-toggle:checked ~ #drawer,
+#drawer.open {
   left: 0px;
 }
 

@@ -42,13 +42,15 @@
 
     // otherwise, add the drawer-open class so it displays.
 
-    drawer.classList.add("sidenav-mobile-open");
+    
 
 
     if(nextState == "open") {
       button.innerHTML = "&times;";
+      drawer.classList.add("open");
     } else if(nextState == "closed") {
       button.innerHTML = "&#9776;";
+      drawer.classList.remove("open");
     }
 
 
