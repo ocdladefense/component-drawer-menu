@@ -3,11 +3,15 @@
 use Presentation\Component;
 
 
-class DrawerComponent extends Component {
+class Drawer extends Component {
 
 
     
+    public function __construct($name,$id,$params) {
 
+        parent::__construct($name,$id,$params);
+        $this->template = "drawer";
+    }
 
 
     public function getStyles() {
