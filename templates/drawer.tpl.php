@@ -18,7 +18,7 @@
 
         <li id="home" class="side-menu-item"><a href="/example/search/duii"><i class="fas fa-home" aria-hidden="true"></i>search</a></li>
 
-        <li id="home" class="side-menu-item"><a href="/xml/product2"><i class="fas fa-home" aria-hidden="true"></i>xml</a></li>
+        <li id="home" class="side-menu-item"><a href="/repository/product2"><i class="fas fa-home" aria-hidden="true"></i>xml</a></li>
        
         <!--<li class="side-menu-item"><i class="fas fa-people-arrows fa-2x"></i><a href="/covid" title="How OCDLA is pivoting to meet COVID-19 challenges.">covid-19</a></li>-->
 
