@@ -22,8 +22,9 @@
 }
 
 
-.fa, .far, .fas {
-
+#drawer .fa,
+#drawer .far,
+#drawer .fas {
   vertical-align: middle;
   width: 60px;
 }
