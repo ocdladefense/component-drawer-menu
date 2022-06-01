@@ -156,10 +156,10 @@ we're going to style the label instead
 /* actual page content pane */
 
 #wrapper {
-  margin-left: 0px;
+  /*margin-left: 0px;
   width: 100%;
   height: calc(100% - 50px);
-  /*overflow-y: scroll;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;*/
 }
 
