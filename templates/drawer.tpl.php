@@ -52,11 +52,25 @@
     <ul>
 
         <?php
+            function isConstant($link) {
+                // "const:STORE_URL"
+                $parts = explode("const:", $link);
+                
+                return count($parts) > 1;
+            }
 
+            function parseConstant($link) {
+                $parts = explode("const:", $link);
+                $const = $parts[1];
+                if(!defined($const)) throw new \Exception("PHP_CONST is not defined.");
+
+                return constant($const);
+            }
             if(is_array($secondary_links)) {
                 
                 foreach($secondary_links as $link) {
-                    
+                    $href = isConstant($link["href"]) ? parseConstant($link["href"]) : $link["href"];
+                    $link["href"] = $href;
                     print "<li class='side-menu-item menu-secondary-item'>" . html("a", $link) . "</li>";
                 }
             }
