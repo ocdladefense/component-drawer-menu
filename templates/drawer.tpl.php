@@ -16,9 +16,27 @@
 						
         <li id="home" class="side-menu-item"><a href="/home"><i class="fas fa-home" aria-hidden="true"></i>home</a></li>
 
-        <li id="home" class="side-menu-item"><a href="/example/search/duii"><i class="fas fa-home" aria-hidden="true"></i>search</a></li>
+        <li id="search" class="side-menu-item"><a href="/example/search/duii"><i class="fas fa-magnifying-glass" aria-hidden="true"></i>search</a></li>
 
-        <li id="home" class="side-menu-item"><a href="/repository/product2"><i class="fas fa-home" aria-hidden="true"></i>xml</a></li>
+
+        <li id="ocdla-org" class="side-menu-item">
+            <a target="_new" href="<?php print ORG_URL; ?>">
+                <i class="fas fa-solid fa-building" aria-hidden="true"></i>ocdla.org</a>
+        </li>
+
+        <li id="library-of-defense" class="side-menu-item">
+            <a target="_new" href="<?php print LOD_URL; ?>">
+                <i class="fas fa-solid fa-scale-balanced" aria-hidden="true"></i>library of defense</a>
+        </li>
+
+
+
+        <li id="legal-resource-library" class="side-menu-item">
+            <a href="/legal-resource-library">
+                <i class="fas fa-solid fa-book-bookmark" aria-hidden="true"></i>legal resource library</a>
+        </li>
+
+        <li id="xml" class="side-menu-item"><a href="/repository/product2"><i class="fas fa-home" aria-hidden="true"></i>xml</a></li>
        
         <!--<li class="side-menu-item"><i class="fas fa-people-arrows fa-2x"></i><a href="/covid" title="How OCDLA is pivoting to meet COVID-19 challenges.">covid-19</a></li>-->
 
