@@ -19,7 +19,7 @@
         </li>
 
         <li id="search" class="side-menu-item">
-            <a href="/example/search/duii"><i class="fas fa-magnifying-glass" aria-hidden="true"></i>search</a>
+            <a href="/search"><i class="fas fa-magnifying-glass" aria-hidden="true"></i>search</a>
         </li>
 
 
